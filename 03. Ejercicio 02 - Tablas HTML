@@ -4,21 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- El título debe ser "Ejercicio 02/2 - Tablas en HTML" -->
     <title>Ejercicio 02/2 - Tablas en HTML</title>
 </head>
-<!--El body debe contener una tabla-->
     <body>
         <h3>Libros favoritos</h3>
         <table>
-<!--Las columnas serán las siguientes: "Título", "Autor", "Año de publicación", "Enlace a Amazon"       -->
         <tr>
             <th>Título</th>
             <th>Autor</th>
             <th>Año de publicación</th>
             <th>Enlace a Amazon</th>
         </tr>
-        <!-- Debe tener tres entradas, que corresponderán a tus tres libros favoritos     -->
         <tr>
             <td>El cuervo</td>
             <td>Edgar Allan Poe</td>
