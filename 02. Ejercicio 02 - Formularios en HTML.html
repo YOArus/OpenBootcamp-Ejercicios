@@ -4,34 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- El título debe ser "Ejercicio 02 - Formularios en HTML" -->
     <title>Ejercicio 02 - Formularios en HTML</title>
 </head>
-<!-- El body debe contener un formulario que cumpla las siguientes características -->
 <body>
-    <!-- El atributo action será "/"     -->
-    <form action="/">
-    <!-- Un campo de texto llamado "nombre" -->
+    <form action="/" method="get">
         <div>
             <label for="nombre">Nombre</label>
             <input type="text" name="nombre">
         </div>
         <br>
-    <!-- Un campo numérico llamado "edad" -->
         <div>
             <label for="edad">Edad</label>
             <input type="number" name="edad">
         </div>
         <br>
-    <!-- Un campo de área de texto llamado "frase-favorita" -->
        <div>
             <label for="frase-favorita">Frase-favorita</label>
             <textarea name="frase-favorita"></textarea>
         </div>
         <br>
-    <!-- Un botón de envío -->
         <button type="submit">Enviar</button>
-    <!-- Un botón de reset -->
         <button type="reset">Reset</button>
     </form>
 </body>
