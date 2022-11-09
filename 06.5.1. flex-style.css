@@ -1,0 +1,13 @@
+
+/* disposición flex-box y reagrupación(wrap) */
+
+.galeria  {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+/*ancho de imagenes */
+img {
+    width: 300px;
+}
